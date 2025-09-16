@@ -321,7 +321,7 @@ LIMIT 10;
 |132012.00|USA|Lexmark International, Inc.|
 |105600.00|Japan|Daikin Industries, Ltd.|
 
-![image](https://docs.google.com/spreadsheets/d/e/2PACX-1vQFIh8R3iJbr63n2eMz4ErEmh7YsJXBLQoMSOCc0OnXt8NhxbWEpiG38_H54LCZm5FQLaB9t_-vHT-s/pubchart?oid=799950172&format=image)
+![image](https://docs.google.com/spreadsheets/d/e/2PACX-1vQFIh8R3iJbr63n2eMz4ErEmh7YsJXBLQoMSOCc0OnXt8NhxbWEpiG38_H54LCZm5FQLaB9t_-vHT-s/pubchart?oid=557831348&format=image)
 
 From the table above, it is clear that countries such as Germany, the USA, and Japan have multiple companies in the Top 10 emitters, spanning diverse industries with moderate footprints. However, Gamesa from Spain, operating in heavy industry, holds the top position with a substantial lead over the second place. 
 
@@ -356,7 +356,7 @@ LIMIT 10;
 |62875.00|Taiwan|
 |24574.00|India|
 
-![image](https://docs.google.com/spreadsheets/d/e/2PACX-1vQFIh8R3iJbr63n2eMz4ErEmh7YsJXBLQoMSOCc0OnXt8NhxbWEpiG38_H54LCZm5FQLaB9t_-vHT-s/pubchart?oid=1473321000&format=image)
+![image](https://docs.google.com/spreadsheets/d/e/2PACX-1vQFIh8R3iJbr63n2eMz4ErEmh7YsJXBLQoMSOCc0OnXt8NhxbWEpiG38_H54LCZm5FQLaB9t_-vHT-s/pubchart?oid=828519745&format=image)
 
 Although Germany and Japan have more companies in the top emitters and a wider variety of industries, their emissions remain low compared to Spain, which is dominated by a single turbine product.
 
@@ -414,7 +414,7 @@ ORDER BY pe.year, SUM(pe.carbon_footprint_pcf) DESC
 |2016|1640182.00|
 |2017|340271.00|
 
-![image](https://docs.google.com/spreadsheets/d/e/2PACX-1vQFIh8R3iJbr63n2eMz4ErEmh7YsJXBLQoMSOCc0OnXt8NhxbWEpiG38_H54LCZm5FQLaB9t_-vHT-s/pubchart?oid=69880907&format=image)
+![image](https://docs.google.com/spreadsheets/d/e/2PACX-1vQFIh8R3iJbr63n2eMz4ErEmh7YsJXBLQoMSOCc0OnXt8NhxbWEpiG38_H54LCZm5FQLaB9t_-vHT-s/pubchart?oid=895711152&format=image)
 
 From the detailed data, we can observe a major spike in 2015, where PCF emissions significantly surpassed those of other years. This is likely due to a large number of products being launched or many companies being established in 2015. From here, I will proceed to analyze in more detail the number of products produced each year.
 
