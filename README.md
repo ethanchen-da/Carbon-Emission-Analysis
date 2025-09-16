@@ -177,6 +177,8 @@ LIMIT 10;
 |20527-1-2014|87589.00|Electric Motor|
 |4235-32-2016|85000.00|Mercedes-Benz S-Class (S 500)|
 
+![image](https://docs.google.com/spreadsheets/d/e/2PACX-1vQFIh8R3iJbr63n2eMz4ErEmh7YsJXBLQoMSOCc0OnXt8NhxbWEpiG38_H54LCZm5FQLaB9t_-vHT-s/pubchart?oid=1762809453&format=image)
+
 From the above results, I can temporarily conclude that the common characteristic of the top 10 products is that they are heavy products, large-scale industrial goods, or large vehicles, meaning that industrial products dominate emissions. It is easy to see that turbines have a high emission level, with the highest footprint, and there is also the presence of transportation vehicles. 
 
 Next step: To clarify this issue, I will next explore the SUM of footprint of different industry groups.
@@ -207,6 +209,8 @@ LIMIT 10;
 |62369.00|Chemicals|
 |46544.00|Software & Services|
 |23017.00|Media|
+
+![image](https://docs.google.com/spreadsheets/d/e/2PACX-1vQFIh8R3iJbr63n2eMz4ErEmh7YsJXBLQoMSOCc0OnXt8NhxbWEpiG38_H54LCZm5FQLaB9t_-vHT-s/pubchart?oid=1929394781&format=image)
 
 
 The results reveal a significant gap between the first and second positions. Although the footprint of the Automobiles & Components sector is substantial, it remains far behind Electrical Equipment and Machinery, whose emissions are approximately four times higher. This indicates that the majority of emissions originate from heavy industrial sectors and large-scale equipment.
@@ -281,6 +285,8 @@ LIMIT 10;
 |Food, Beverage & Tobacco|57.50|12.50|30.00|
 |Tobacco|57.14|0.00|42.86|
 
+![image](https://docs.google.com/spreadsheets/d/e/2PACX-1vQFIh8R3iJbr63n2eMz4ErEmh7YsJXBLQoMSOCc0OnXt8NhxbWEpiG38_H54LCZm5FQLaB9t_-vHT-s/pubchart?oid=114843765&format=image)
+
 From the data, it is evident that the industry most dependent on the supply chain is Containers & Packaging, with a clear disparity between industries with extremely high upstream ratios (87.01%) and those with very high downstream ratios (91.88%). These industries will require completely different carbon reduction strategies.
 
 Next step: To further explore the data, I will examine which industries have the highest proportions of upstream and downstream emissions.
@@ -315,6 +321,8 @@ LIMIT 10;
 |132012.00|USA|Lexmark International, Inc.|
 |105600.00|Japan|Daikin Industries, Ltd.|
 
+![image](https://docs.google.com/spreadsheets/d/e/2PACX-1vQFIh8R3iJbr63n2eMz4ErEmh7YsJXBLQoMSOCc0OnXt8NhxbWEpiG38_H54LCZm5FQLaB9t_-vHT-s/pubchart?oid=799950172&format=image)
+
 From the table above, it is clear that countries such as Germany, the USA, and Japan have multiple companies in the Top 10 emitters, spanning diverse industries with moderate footprints. However, Gamesa from Spain, operating in heavy industry, holds the top position with a substantial lead over the second place. 
 
 We can tentatively conclude that heavy industry overwhelmingly dominates carbon emissions.
@@ -347,6 +355,8 @@ LIMIT 10;
 |70417.00|Netherlands|
 |62875.00|Taiwan|
 |24574.00|India|
+
+![image](https://docs.google.com/spreadsheets/d/e/2PACX-1vQFIh8R3iJbr63n2eMz4ErEmh7YsJXBLQoMSOCc0OnXt8NhxbWEpiG38_H54LCZm5FQLaB9t_-vHT-s/pubchart?oid=1473321000&format=image)
 
 Although Germany and Japan have more companies in the top emitters and a wider variety of industries, their emissions remain low compared to Spain, which is dominated by a single turbine product.
 
@@ -403,6 +413,8 @@ ORDER BY pe.year, SUM(pe.carbon_footprint_pcf) DESC
 |2015|10840415.00|
 |2016|1640182.00|
 |2017|340271.00|
+
+![image](https://docs.google.com/spreadsheets/d/e/2PACX-1vQFIh8R3iJbr63n2eMz4ErEmh7YsJXBLQoMSOCc0OnXt8NhxbWEpiG38_H54LCZm5FQLaB9t_-vHT-s/pubchart?oid=69880907&format=image)
 
 From the detailed data, we can observe a major spike in 2015, where PCF emissions significantly surpassed those of other years. This is likely due to a large number of products being launched or many companies being established in 2015. From here, I will proceed to analyze in more detail the number of products produced each year.
 
